@@ -14,6 +14,7 @@ header {
     background-color: #1F2937;   
     margin: -8px; 
     padding: 0 15%;
+    padding-bottom: 48px;
 }
 
 .header-links {
@@ -35,6 +36,19 @@ ul {
     padding: 10px;
 }
 
+.hero-container {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    gap: 5px;
+}
+
 .hero-main {
     font-size: 48px;
     font-weight: 900;
@@ -44,4 +58,20 @@ ul {
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    flex: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 120px;
 }
