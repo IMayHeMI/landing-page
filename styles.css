@@ -110,8 +110,51 @@ h2 {
 }
 
 .loan-option {
+    box-sizing: border-box;
+    height: 128px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
+a {
+    text-decoration: none;
+    color: #1F2937;
+}
+
+a:hover {
+    color: #3882F6;
+    transition: color 0.2s ease;
+}
+
+.customer-reviews {
+    box-sizing: border-box;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -8px;
+    background-color: #E5E7EB;
+    padding: 8em 0;
+}
+
+.last-review {
+    font-size: 18px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 40%;
+    min-width: 40%;
+}
+
+.reviewer {
+    color: #1F2937;
+    margin-left: 15em;
+    font-weight: 700;
+}
+
+
