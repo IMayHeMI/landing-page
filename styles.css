@@ -141,20 +141,66 @@ a:hover {
 }
 
 .last-review {
+    max-width: 40%;
+    min-width: 40%;
     font-size: 18px;
     font-style: italic;
     color: #1F2937;
     display: flex;
     justify-content: center;
-    align-items: center;
-    max-width: 40%;
-    min-width: 40%;
+    align-items: center;    
 }
 
 .reviewer {
     color: #1F2937;
     margin-left: 15em;
     font-weight: 700;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 -8px;
+    padding: 6em 0;
+}
+
+.sign-up-window {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 2em 3em;
+    border-radius: 10px;
+    display: flex;
+    gap: 4em;
+}
+
+.primary-text {
+    font-size: 22px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    color: #F9FAF8;
+    max-width: 70%;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    flex: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 120px;
 }
 
 
