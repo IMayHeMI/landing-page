@@ -48,7 +48,6 @@ ul {
 }
 
 .hero-container {
-    box-sizing: border-box;
     display: flex;
     justify-content: space-between;  
     align-items: center; 
@@ -98,7 +97,8 @@ ul {
 }
 
 .hero-image {
-    flex: 0 1 400px;    
+    flex: 0 1 auto;
+    margin-bottom: auto;    
 }
 
 h2 {
@@ -112,6 +112,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 70px;
 }
 
@@ -218,8 +219,51 @@ a:hover {
 footer {
     background-color: #1F2937;
     color: #E5E7EB;
+    margin: 0 -8px -8px -8px;
     padding: 1em 0;
     text-align: center;
+}
+
+@media (max-width: 430px) {
+    ul {
+        display: block;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .hero-image {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .loan-options {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .loan-option {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .last-review {
+        max-width: 90%;
+        min-width: 90%;
+    }
+
+    .sign-up-window {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 
